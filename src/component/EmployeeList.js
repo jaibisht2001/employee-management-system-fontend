@@ -31,8 +31,6 @@ function EmpList() {
               <b>Mobile:</b> ${data[i].mobile}<br>
               <b>Designation: </b> ${data[i].designation}
             </p>
-            <a href="#" class="card-link"><i class="fa fa-location-arrow"></i> Go To Leave</a>
-            <a href="#" class="card-link"><i class="fa fa-clipboard-list"></i> Go To Task</a>
             </div>
             </div>
             </div>

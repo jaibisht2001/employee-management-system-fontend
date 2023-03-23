@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom"
 import './App.css';
 import Home from './component/home';
 import EmpLogin from './component/emp-login';
@@ -23,6 +23,7 @@ function App() {
     
     <BrowserRouter>
         <Routes>
+          <Route exact path="/" element={<Navigate to="/home"/>}/>
           <Route exact path="/home" element={<Home/>} />
           <Route exact path="/emp-login" element={<EmpLogin/>} />
           <Route exact path="/man-login" element={<MangLogin/>} />

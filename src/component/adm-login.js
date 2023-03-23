@@ -33,7 +33,7 @@ function AdmLogin() {
           localStorage.setItem('token',data)
           localStorage.setItem('id',AdminLoginData.adminId)
           localStorage.setItem('user','ADMIN')
-          navigate('/adm-dashboard');
+          navigate('/adm-dashboard/addemployee');
         }
         else{
           alert(data)
