@@ -1,0 +1,25 @@
+body {
+    background-color: #1b2232;
+  }
+
+  .EmpLogin {
+    background-color: whitesmoke;
+    position: relative;
+    max-width: 40%; 
+    margin: auto;
+     max-height: 60%;  
+     margin-top: 7%; 
+     margin-bottom: 10%;
+    padding: 10px 10px 10px 10px; 
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px 5px lightgray;
+    
+  } 
+
+
+
+  .img-logo{
+    height:200px;
+    width:200px;
+  }

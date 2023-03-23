@@ -1,0 +1,29 @@
+body {
+    background-color: #1b2232;
+  }
+
+  .AddMang {
+    background-color: whitesmoke;
+    position: relative;
+    max-width: 40%; 
+    margin: auto;
+     max-height: 60%;  
+     margin-top: 7%; 
+     margin-bottom: 10%;
+    padding: 10px 10px 10px 10px; 
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px 5px lightgray;
+    
+  }
+
+  input[type=date]:required:invalid::-webkit-datetime-edit {
+    color: transparent;
+}
+input[type=date]:focus::-webkit-datetime-edit {
+    color: black !important;
+}
+
+.btn {
+  background-color: #1b2232;
+}

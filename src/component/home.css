@@ -1,0 +1,26 @@
+
+.banner{
+    height: 50vh;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.6)),url("../images/home-bg.jpg");
+    background-size: cover;                      
+    background-repeat:  no-repeat;
+    background-position: bottom;  
+    color: #fff; 
+}
+
+.card-img-top{
+    width:150px;
+    height:150px;
+    margin:10px;
+}
+
+.card-text, .card-title{
+    color: black;
+}
+
+.link-mod{
+    text-decoration: none;
+    color: black;
+}
+

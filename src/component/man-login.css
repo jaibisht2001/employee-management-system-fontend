@@ -1,0 +1,29 @@
+body {
+    background-color: #1b2232 !important;
+    height: 80vh !important;
+    
+  }
+
+  .MangLogin {
+    background-color: whitesmoke;
+    position: relative;
+    max-width: 40%; 
+    margin: auto; 
+     margin-top: 7%; 
+     margin-bottom: 10%;
+    padding: 10px 10px 10px 10px; 
+    border-radius: 10px;
+    box-sizing: border-box;
+  } 
+
+
+
+  .img-logo{
+    margin:20px;
+    height:100px;
+    width:100px;
+  }
+
+  .btn{
+    width: 100% !important;
+  }

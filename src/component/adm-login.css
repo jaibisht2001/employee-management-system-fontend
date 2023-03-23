@@ -1,0 +1,26 @@
+body {
+    background-color: #1b2232;
+  }
+
+  .AdmLogin {
+    background-color: whitesmoke;
+    position: relative;
+    max-width: 40%; 
+    margin: auto;
+     max-height: 60%;  
+     margin-top: 7%; 
+     margin-bottom: 10%;
+    padding: 10px 10px 10px 10px; 
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px 5px lightgray;
+    
+  } 
+
+
+
+  .img-logo{
+    margin:20px;
+    height:100px;
+    width:100px;
+  }
